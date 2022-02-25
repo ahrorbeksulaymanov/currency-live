@@ -15,7 +15,7 @@ function App() {
             <Route path="/more-valyuta">
               <MoreInfoComp />
             </Route>
-            <Route exact path="/">
+            <Route exact={false} path="/">
               <MainPage />
               <ChartValyuta />
             </Route>
