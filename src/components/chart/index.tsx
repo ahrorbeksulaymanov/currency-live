@@ -15,7 +15,6 @@ const ChartValyuta = () => {
 
   const [data, setData] = useState<dataType[]>([]);
   const [loading, setloading] = useState<boolean>(true);
-  const [refresh, setrefresh] = useState<boolean>(true);
 
   useEffect(() => {
     let tenDaysAgo = new Date();
