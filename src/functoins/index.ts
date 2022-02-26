@@ -6,7 +6,7 @@ const RefreshFunc = (loading: boolean) => {
   if (!loading) {
     setTimeout(() => {
       setrefresh(!refresh);
-    }, 15000);
+    }, 60000);
   }
 
   return refresh;
